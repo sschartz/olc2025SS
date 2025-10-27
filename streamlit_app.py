@@ -67,11 +67,14 @@ Write a 300–500 word report including:
                 prompt = f"""
                 You are an experienced instructor designing a Management Information Systems assignment.
                 Tailor an assignment for a student majoring in {major}, with a difficulty level of {difficulty}/5
-                (1 = beginner, 5 = advanced analysis). The assignment should:
+                (1 = beginner, 5 = advanced analysis). 
+                
+                The assignment should:
+                - Encourage the student to find missing skills in their major, and create a plan to obtain them.
                 - Relate to real-world {major.lower()} applications of MIS.
                 - Include a context or short scenario.
                 - Encourage problem-solving and creativity.
-                - End with a specific deliverable (e.g., report, dashboard, or proposal).
+                - End with a specific deliverable (e.g., report, dashboard, or proposal) that doesn't require additional software beyond microsoft office to complete.
                 """
                 resp = client.chat.completions.create(
                     model="gpt-4o-mini",
