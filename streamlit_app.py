@@ -82,7 +82,7 @@ Write a 300–500 word report including:
                         {"role": "system", "content": "You are an expert instructional designer and business educator."},
                         {"role": "user", "content": prompt}
                     ],
-                    max_tokens=400
+                    max_tokens=1200
                 )
                 assignment_text = resp.choices[0].message.content.strip()
                 st.success("✅ Assignment generated!")
