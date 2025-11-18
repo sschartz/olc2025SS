@@ -70,6 +70,7 @@ Write a 300–500 word report including:
                 (1 = beginner, 5 = advanced analysis). 
                 
                 The assignment should:
+                - Use Bloom's Taxonomy verbs to make two learning objectives based on the difficulty selected.
                 - Encourage the student to find missing skills in their major, and create a plan to obtain them.
                 - Relate to real-world {major.lower()} applications of MIS.
                 - Include a context or short scenario.
