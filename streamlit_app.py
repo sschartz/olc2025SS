@@ -71,10 +71,8 @@ Write a 300–500 word report including:
                 
                 The assignment should:
                 - Use Bloom's Taxonomy verbs to make two learning objectives based on the difficulty selected.
-                - Encourage the student to find missing skills in their major, and create a plan to obtain them.
+                - Encourage the student to find missing IT skills in their major, and create a plan to obtain them.
                 - Relate to real-world {major.lower()} applications of MIS.
-                - Include a context or short scenario.
-                - Encourage problem-solving and creativity.
                 - End with a specific deliverable (e.g., report, dashboard, or proposal) that doesn't require additional software beyond microsoft office to complete.
                 """
                 resp = client.chat.completions.create(
